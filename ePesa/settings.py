@@ -95,12 +95,14 @@ SECURE_CROSS_ORIGIN_OPENER_POLICY = None
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
-    "http://localhost:4500"
+    "http://localhost:4500",
+    "http://localhost:9001",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:4200"
-    "http://localhost:4500"
+    "http://localhost:4200",
+    "http://localhost:4500",
+    "http://localhost:9001",
 ]
 
 # Database
